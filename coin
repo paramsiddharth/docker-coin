@@ -1,0 +1,11 @@
+#!/bin/sh
+# Coin
+# Returns a random coin toss, either heads or tails.
+# Made with ❤ by Param.
+
+toss=$((RANDOM%2))
+if [[ $toss -eq 0 ]]; then
+	echo Heads
+else
+	echo Tails
+fi
