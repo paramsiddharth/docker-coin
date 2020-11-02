@@ -1,8 +1,14 @@
 # Docker Coin
 A console-based application that displays a random coin-flip: _Heads_ or _Tails_.
 
+## Building
+Use the available `Dockerfile` to build the image.
+```
+docker build -t paramsiddharth/coin .
+```
+
 ## Execution
-The image can be pulled and executed using Docker-CLI.
+Once built or pulled from Docker Hub, the image can be executed using Docker-CLI.
 - Pull the image from Docker Hub.
   ```
   docker pull paramsiddharth/coin
